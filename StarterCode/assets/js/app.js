@@ -1,4 +1,5 @@
 // @TODO: YOUR CODE HERE!
+
 // Set up SVG definitions
 let svgWidth = 960;
 let svgHeight = 620;
@@ -158,7 +159,7 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
     return circlesGroup;
 }
 //retrieve data
-d3.csv('./assets/data/data.csv').then(function(censusData) {
+d3.csv("assets/data/data.csv").then(function(censusData) {
 
     console.log(censusData);
     
